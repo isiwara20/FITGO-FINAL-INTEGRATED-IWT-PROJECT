@@ -1,0 +1,183 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #080808;
+    background-color: #f8f7f6;
+    padding: 0;
+}
+
+/* aboutus Section */
+.aboutus-section {
+    background-image: url('../img/cover.jpg'); /* Adjusted path */
+    background-size: cover;
+    padding: 100px 20px;
+    text-align: center;
+    color: #f9f6f6;
+    justify-content: center;
+
+    
+}
+
+.aboutus-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    text-align: center;    
+    color :#f0f2f4 ;
+                 
+    
+}
+
+.aboutus-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color :#f0f2f4
+}
+
+.btn {
+    background-color: #007BFF;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Our Story Section */
+.our-story {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.our-story img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Mission Section */
+.mission-section {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.values {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.value-item {
+    width: 30%;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* What We Offer Section */
+.what-we-offer {
+    padding: 50px 0px;
+    text-align: center;
+    background-color: #f0f2f4;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap; /* No wrapping, keeps items in one row */
+    width: 80%;
+    margin: 0 auto;
+    gap: 20px; /* Adds spacing between the boxes */
+}
+
+.offer-item {
+    background-color: #007BFF; /* Blue background */
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1; /* Makes each box take equal width */
+    text-align: center;
+    position: relative;
+    max-width: 30%; /* Ensures each box takes up 30% of the container width */
+}
+
+.offer-item img {
+    width: 100%;
+    max-width: 250px;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+/* Button Styles */
+.button {
+    background-color: white;
+    color: #007BFF;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    color: white;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+    .container {
+        flex-wrap: wrap; /* Allows wrapping for smaller screens */
+    }
+
+    .offer-item {
+        flex-basis: calc(50% - 20px); /* Two boxes per row on tablet */
+    }
+}
+
+@media (max-width: 480px) {
+    .offer-item {
+        flex-basis: 100%; /* One box per row on mobile */
+    }
+}
+
+/* Testimonials Section */
+.testimonials-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.testimonial {
+    margin-bottom: 20px;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.social-icons img {
+    width: 40px;
+    margin: 0 10px;
+}

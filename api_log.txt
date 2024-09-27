@@ -1,0 +1,6 @@
+2024-09-21 18:33:23 - API Error: Unauthorized request!
+2024-09-21 18:34:37 - Message sent successfully: 
+2024-09-21 18:35:43 - Message sent successfully: 
+2024-09-21 18:37:01 - Message sent successfully: 
+2024-09-21 18:45:40 - API Error: Template not found
+2024-09-21 18:47:06 - Message sent successfully: 

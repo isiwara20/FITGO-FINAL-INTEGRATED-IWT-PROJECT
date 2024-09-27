@@ -1,0 +1,92 @@
+/* Reset body margins */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the background container */
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: -1; /* Make sure background stays behind the content */
+}
+
+/* Style for content */
+.content {
+    margin: 40px;
+    
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+}
+
+/* Style for headers and paragraphs */
+h1, h2, h3 {
+    color: #0b0101;
+    text-align: left;
+}
+
+p {
+    margin-left: 30px; /* Moves paragraphs to the right */
+    line-height: 1.6;
+    color: #fff5f5;
+}
+
+ul {
+    margin-left: 50px;
+    line-height: 1.6;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Box container styling */
+.box-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px;
+    background-color: rgb(219, 212, 205);
+    margin-top: 40px;
+}
+
+/* Individual box styling */
+.box {
+    width: 30%; /* Adjust based on screen size */
+    height: auto; /* Let the height adjust based on content */
+    background-color: #b3a49ae7; /* Light brown background */
+    border: 2px solid #4a4a4ae7; /* Dark green border */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #010f04; /* Text color matches border */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .box {
+        width: 45%; /* Two boxes per row on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .box {
+        width: 100%; /* Full width for mobile view */
+    }
+}
+
+
+
