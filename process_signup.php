@@ -199,7 +199,7 @@ function sendUser($client, $phoneNumber, $uname) {
     }
 
     $message = array(
-        'source' => 'OSLOCAMPUS',
+        'source' => 'FITGO',
         'destinations' => [$phoneNumber],
         'content' => array(
             'sms' => 'Your account has been successfully created! Your username is: '.$uname
