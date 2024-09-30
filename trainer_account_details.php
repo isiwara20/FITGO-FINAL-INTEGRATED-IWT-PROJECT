@@ -134,7 +134,9 @@ curl_close($ch);
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Complete Trainer Profile</title>
+    <title>FIT-GO | Complete Trainer Profile</title>
+    <link rel="icon" type="image/x-icon" href="img/logobk.png">
+        
         <style>
             body 
             {
@@ -196,7 +198,7 @@ curl_close($ch);
             }
             .logo_img 
             {
-                max-width: 150px;
+                max-width: 80px;
             
             }
 
@@ -321,7 +323,7 @@ curl_close($ch);
     <body>
         <div class="container">
             <div class="logo">
-                <img class="logo_img" src="logo.jpg" alt="logo">
+                <img class="logo_img" src="img/logobk.png" alt="logo">
             </div>
 
             <h1>Welcome to FITGO</h1>
