@@ -44,8 +44,8 @@ document.addEventListener('click', function(event) {
             <a href="index.php"><img style="width:60px; height:60px;padding: 0;margin-left:10px;"class="logo" src="img/logo.png"></a>
             <div style="height:0;padding: 0; margin: 0;" class="menu-toggle" onclick="toggleMenu()">☰</div>
             <ul class="navbuttons" id="navbuttons">
-                <li><a href="index.php" class="active">HOME</a></li>
-                <li><a href="aboutus.php">ABOUT US</a></li>
+                <li><a href="index.php" >HOME</a></li>
+                <li><a href="aboutus.php" class="active">ABOUT US</a></li>
                 <li><a href="sessions.php">SESSIONS</a></li>
                 <li><a href="train.php">TRAINERS</a></li>
                 <li><a href="contact.php">CONTACT US</a></li>
