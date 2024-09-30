@@ -82,13 +82,7 @@ document.addEventListener('click', function(event) {
 
 
 
-<script>
-        function toggleNav() {
-            const navLinks = document.querySelector('.navbuttons');
-            navLinks.classList.toggle('active');
-        }
-        
-</script>
+
 
 
 
