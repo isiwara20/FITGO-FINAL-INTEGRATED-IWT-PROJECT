@@ -10,7 +10,7 @@
 
     //given by the gatway providers
     use Swagger\Client\ShoutoutClient;
-    $apiKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIxZDgwOTQ5MC02MTE4LTExZWYtOWEzYi04OTc0YjdjNWE1YWQiLCJzdWIiOiJTSE9VVE9VVF9BUElfVVNFUiIsImlhdCI6MTcyNDM5NDE2NywiZXhwIjoyMDM5OTI2OTY3LCJzY29wZXMiOnsiYWN0aXZpdGllcyI6WyJyZWFkIiwid3JpdGUiXSwibWVzc2FnZXMiOlsicmVhZCIsIndyaXRlIl0sImNvbnRhY3RzIjpbInJlYWQiLCJ3cml0ZSJdfSwic29fdXNlcl9pZCI6IjU3NTI2MCIsInNvX3VzZXJfcm9sZSI6InVzZXIiLCJzb19wcm9maWxlIjoiYWxsIiwic29fdXNlcl9uYW1lIjoiIiwic29fYXBpa2V5Ijoibm9uZSJ9.HM0SnP5ndIr2owXfNEjGK9b0kLHb4rkgEStaYxbKmZE';
+    $apiKey = '';
     $client = new ShoutoutClient($apiKey, true, false);
 
     
